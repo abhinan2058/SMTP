@@ -3,14 +3,16 @@ import matplotlib.pyplot as plt
 import pandas as pd
 import yfinance as yf
 
+from datetime import date
+
 
 from keras.models import load_model
 import streamlit as st
 
 # Define the stock symbol and the date range
 
-start_date = '2010-01-01'
-end_date = '2023-11-30'
+start_date = '2000-01-01'
+end_date = date.today()
 
 
 st.title('Stock Trend Prediction')
