@@ -61,3 +61,6 @@ The model predicts stock prices based on historical patterns.
    ```bash
    git clone https://github.com/abhinan2058/SMTP.git
    cd SMTP
+
+2. Install dependencies:
+    pip install -r requirements.txt
